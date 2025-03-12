@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -155,48 +154,63 @@ const About = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white rounded-lg overflow-hidden shadow-md animate-fade-up">
               <img 
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=800&h=500" 
-                alt="Carlos Mendoza" 
+                alt="Alberto Román" 
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-heading text-impact-black mb-1">Carlos Mendoza</h3>
-                <p className="text-impact-red font-medium mb-3">Fundador & CEO</p>
+                <h3 className="text-xl font-heading text-impact-black mb-1">Alberto Román</h3>
+                <p className="text-impact-red font-medium mb-3">CEO & Fundador</p>
                 <p className="text-gray-600">
-                  Ex-boxeador profesional con más de 15 años de experiencia en la industria deportiva.
+                  Experto en marketing deportivo con una visión innovadora para el boxeo.
                 </p>
               </div>
             </div>
             
             <div className="bg-white rounded-lg overflow-hidden shadow-md animate-fade-up" style={{ animationDelay: "0.2s" }}>
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=800&h=500" 
-                alt="Ana Martínez" 
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=800&h=500" 
+                alt="Jose Maria Oteo" 
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-heading text-impact-black mb-1">Ana Martínez</h3>
-                <p className="text-impact-red font-medium mb-3">Directora de Diseño</p>
+                <h3 className="text-xl font-heading text-impact-black mb-1">Jose Maria Oteo</h3>
+                <p className="text-impact-red font-medium mb-3">Director de Operaciones</p>
                 <p className="text-gray-600">
-                  Diseñadora con amplia experiencia en el desarrollo de equipamiento deportivo de alta gama.
+                  Especialista en logística y gestión de la cadena de suministro.
                 </p>
               </div>
             </div>
             
             <div className="bg-white rounded-lg overflow-hidden shadow-md animate-fade-up" style={{ animationDelay: "0.4s" }}>
               <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=800&h=500" 
-                alt="Miguel Torres" 
+                src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?auto=format&fit=crop&q=80&w=800&h=500" 
+                alt="Jose Manuel Sierra" 
                 className="w-full h-64 object-cover object-center"
               />
               <div className="p-6">
-                <h3 className="text-xl font-heading text-impact-black mb-1">Miguel Torres</h3>
-                <p className="text-impact-red font-medium mb-3">Director de Innovación</p>
+                <h3 className="text-xl font-heading text-impact-black mb-1">Jose Manuel Sierra</h3>
+                <p className="text-impact-red font-medium mb-3">Director de Diseño</p>
                 <p className="text-gray-600">
-                  Ingeniero e investigador especializado en materiales avanzados para equipamiento deportivo.
+                  Diseñador con amplia experiencia en equipamiento deportivo.
+                </p>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-lg overflow-hidden shadow-md animate-fade-up" style={{ animationDelay: "0.6s" }}>
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800&h=500" 
+                alt="Ruben Rincon" 
+                className="w-full h-64 object-cover object-center"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-heading text-impact-black mb-1">Ruben Rincon</h3>
+                <p className="text-impact-red font-medium mb-3">Director Técnico</p>
+                <p className="text-gray-600">
+                  Experto en desarrollo de productos y control de calidad.
                 </p>
               </div>
             </div>
